@@ -6,3 +6,24 @@ git status
 git add ファイル名
 git commit ファイル名
 1行目にコメント
+
+git diff
+
+git diff --staged
+
+git log --oneline
+	-p ファイル名
+	-n コミット数（最近の変更を表示）
+
+git rm ファイル名
+git rm -r ディレクトリ名
+git rm --cached ファイル名（リポジトリのみ削除）
+
+git reset HEAD index.html
+git checkout index.html
+
+git mv 旧ファイル　新ファイル
+
+git remote add origin
+
+git push リモート名　ブランチ名
