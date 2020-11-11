@@ -42,11 +42,40 @@ git comit --amend(pushしたらかえちゃだめ)
 git remote -v
 
 git fetch リモート名
-git merge 
+git branch -a
+git merge リモート名/ブランチ名 
 
-git pull
+git pull リモート名　ブランチ名（fetch mergeを一度に行う）
 
 
+fetch pullの使い分け
+pullは今いるブランチが上書きされる
+masterブランチにいるのにhogeブランチが統合される
+
+git remote rename 旧リモート名　新リモート名
+
+git remote rm　リモート名
+
+ブランチはコミットを記録したポインタ
+HEADは現在作業中のブランチを記録したポインタ
+
+git branch ブランチ名
+
+git checkout 既存ブランチ名
+
+git checkout -b 新ブランチ名ca
+
+git merge ブランチ名
+
+同じファイルを同時に変更しない
+git add .を安易に使わない
+pull, mergeする前にcommitしておく
+pullするときにpullするブランチに移動してからpullする
+
+git branch -m ブランチ名
+
+git branch -d ブランチ名
+git branch -D ブランチ名
 
 
 
