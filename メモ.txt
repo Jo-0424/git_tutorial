@@ -63,10 +63,14 @@ git branch ブランチ名
 
 git checkout 既存ブランチ名
 
+<<<<<<< HEAD
 git checkout -b 新ブランチ名ca
 
 git merge ブランチ名
 git 
+=======
+git checkout -b 新ブランチ名
+>>>>>>> feature
 
 
 
