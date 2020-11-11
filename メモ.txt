@@ -33,7 +33,20 @@ git config --global alias.st status
 git config --global alias.br branch
 git config --global alias.co checkout
 
-git checkout --ファイル名
+git checkout --　ファイル名　（ワークツリー）
+
+git reset HEAD ファイル名　（ステージ）
+
+git comit --amend(pushしたらかえちゃだめ)
+
+git remote -v
+
+git fetch リモート名
+git merge 
+
+git pull
+
+
 
 
 
